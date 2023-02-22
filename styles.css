@@ -109,3 +109,11 @@ button:hover {
 .attribution a {
     color: hsl(228, 45%, 44%);
 }
+
+@media (max-width: 500px) {
+    main {
+        width: 20rem;
+        display: flex;
+        flex-direction: column;
+    }
+}
