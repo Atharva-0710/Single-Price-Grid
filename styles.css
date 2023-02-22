@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    line-height: 1.5;
+    background-color: hsl(218, 48%, 91%);
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-content: center;
+    width: 40rem;
+    color: hsl(204, 43%, 93%);
+    font-family: 'Karla', sans-serif;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: inset;
+}
+
+.first-row {
+    /* text-align: center; */
+    grid-column: span 2;
+    padding: 2rem;
+    background-color: white;
+    color: hsl(203, 12%, 79%);
+}
+
+.big-heading {
+    color: hsl(179, 62%, 43%);
+}
+
+.first-row h3 {
+    color: hsl(71, 73%, 54%);
+    margin-top: 0.8rem;
+    margin-bottom: 0.4rem;
+}
+
+.pricing {
+    background-color: hsl(179, 62%, 43%);
+    padding: 2rem;
+}
+
+.price {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 1rem 0 0.4rem;
+}
+
+.price h1 {
+    margin-right: 1rem;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.price p {
+    color: hsl(203, 12%, 79%);
+}
+
+.testimonials {
+    /* text-align: center; */
+    background-color: hsl(179, 83%, 45%);
+    /* opacity: 0.7; */
+    /* padding: 0.52rem; */
+}
+
+.testimonials h3 {
+    margin-left: 2rem;
+    margin-top: 1.8rem;
+}
+
+.paras {
+    margin: 1.5rem 3.8rem 1.5rem 2rem;
+    font-size: 1rem;
+    color: hsl(201, 26%, 89%);
+}
+
+button {
+    background-color: hsl(71, 73%, 54%);
+    border: none;
+    padding: 0.8rem 6rem;
+    text-align: center;
+    border-radius: 8px;
+    color: white;
+    margin-top: 1.7rem;
+    box-shadow: 5px 5px 5px hsl(179, 97%, 29%);
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: hsl(71, 83%, 50%);
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
